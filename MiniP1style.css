@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0.5rem;
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: dashed black 2px;
+    outline: black 2px solid;
+    outline-offset: 2px;
+    padding: 1rem;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(238, 179, 85);
+    border: 2px #333 solid;
+    border-radius: 50% 50% 0 0;
+    padding: 2rem;
+    width: auto;
+}
+.intro {
+    background-color: rgb(238, 179, 85);
+    padding: 2rem;
+    border: #333 dashed 3px;
+    /* font-family: 'Courier New', Courier, monospace */
+    /* border: 0 2px 2px 2px #333 solid;
+    /* border-left: 2px 2#333 solid;
+    border-right: 2px #333 solid;
+    border-bottom: 2px #333 solid */
+    
+}
+
+.intro:hover , .into:focus {
+    text-decoration-color: black;
+    background-color: wheat;
+    border: #333 solid 2px;
+}
+
+nav {
+    background-color: rgb(238, 179, 85);
+    border: #333 dashed 3px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 4rem;
+    padding: 0%;
+    margin: 0 auto 1rem;
+}
+li a,li a:visited {
+    /* background-color: papayawhip; */
+    color: black;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.menu {
+    padding: 1rem;
+    background-color: gold;
+    border-radius: 2rem 2rem 0 0;
+    border: #333 solid 3px;
+}
+
+li a {
+    display: block;
+}
+li a {
+    padding: 1rem;
+    background-color: rgb(255, 111, 0);
+    border-radius: 0;
+    border: #333 solid 3px;
+}
+
+li a:hover, li a:focus {
+    background-color: #333;
+    color: whitesmoke;
+    cursor: pointer;
+    text-decoration: solid;
+    /* border-radius: 0 0 2rem 2rem; */
+}
+article {
+    background-color: blanchedalmond;
+    border:rgb(255, 111, 0) dashed 2px;
+}
